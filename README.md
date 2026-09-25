@@ -73,18 +73,25 @@ python -m uvicorn api.app:app --host 127.0.0.1 --port 8000 --reload
 
 ---
 
-## 📖 Interactive API Documentation
+## 📖 System Architecture & Component Output Docs
+
+For a complete deep-dive into how each component works and the exact JSON output schemas produced by each pipeline layer:
+👉 **[SYSTEM_ARCHITECTURE.md](file:///d:/AEGIS/AEGIS-BACKEND/SYSTEM_ARCHITECTURE.md)**
+
+---
+
+## 📚 Integration Guide for Frontend & Chrome Extension
+
+For step-by-step frontend integration instructions, CORS setup, and JavaScript code snippets for Chrome extension developers:
+👉 **[INTEGRATION_GUIDE.md](file:///d:/AEGIS/AEGIS-BACKEND/INTEGRATION_GUIDE.md)**
+
+---
+
+## 📖 Interactive OpenAPI Docs
 
 Once Uvicorn is running:
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
-
----
-
-## 📚 Integration Guide for Frontend & Extension
-
-For detailed integration instructions, JSON request/response schemas, CORS configuration, and JavaScript fetch code snippets, please see:
-👉 **[INTEGRATION_GUIDE.md](file:///d:/AEGIS/AEGIS-BACKEND/INTEGRATION_GUIDE.md)**
 
 ---
 
