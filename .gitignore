@@ -14,6 +14,8 @@ __pycache__/
 
 # Testing
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Logs
 *.log
@@ -24,3 +26,13 @@ Thumbs.db
 
 # Firebase credentials
 firebase-service-account.json
+
+# Local AI runtime data
+.ollama/
+
+# Temporary files
+tmp/
+temp/
+
+# Original ML source repository/reference
+ml_source/

@@ -1,0 +1,7 @@
+# AEGIS Local Threat Blocklist
+# Exact or subdomain boundary matching
+malicious.example.test
+phishing-bank-update-verify.com
+credential-harvesting-fake-login.org
+secure-login-verify-account-update-billing.bank-alert-claim.com
+paypal.com.verify-login-update-security-account.info
